@@ -1,0 +1,85 @@
+
+body {
+    background-color: rgb(237, 148, 194);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;   
+    text-align: center;
+    margin-bottom: 20px auto;
+    background-color: rgb(237, 148, 194);
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10xp;
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 15xp;
+    font-weight: bold;
+    padding-top: 20xp;
+}
+
+
+div p {
+    margin-top: 20xp;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: black;
+    width: 35%;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bolder;
+    padding-top: 0.5em;
+}
+
+img {
+    width: 80xp;
+    text-align: center;
+    max-width: 10%;
+    max-height: 10%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20xp auto;
+    padding: 30px;
+}
+
+article {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6xp;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    width: 80xp;
+    padding-top: 1em;
+}
+
+h1:hover {
+    color: black;
+}

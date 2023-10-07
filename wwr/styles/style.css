@@ -34,7 +34,7 @@ body {
 }
 
 header {
-    background-color: #e2c3d3;
+    background-color: #b092a1;
 }
 
 nav a:hover {
@@ -52,11 +52,11 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #EB7609;
+    background-color: #b092a1;
 }
 
 footer {
-    background-color: #e2c3d3;
+    background-color: #b092a1;
     color: #0a434b;
 }
 
@@ -74,11 +74,11 @@ h4 {
 }
 
 msg h2 {
-    color: black;
+    color: #247887;
 }
 
 msg p {
-    color:#366E77;
+    color:#905673;
 }
 
 footer a {
@@ -87,7 +87,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #062429;
+    color: #247887;
 }
 
 .logo {

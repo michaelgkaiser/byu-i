@@ -1,3 +1,6 @@
+/*import of the font styles for headline and paragraph from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Oswald&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,8 +8,9 @@
 
 nav a {
     text-align: center;
-    color: #0a434b;
+    color: #0a434b; 
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -31,6 +35,11 @@ main section {
 
 body {
     background-color: #6ebfcc; 
+    font-family: Oswald, Tahoma, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+
 }
 
 header {
@@ -53,15 +62,22 @@ nav a:hover {
 
 .msg {
     background-color: #b092a1;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #b092a1;
     color: #0a434b;
+    padding: 25px, 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #3c3a3b;
+    font-family: Michroma, Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -71,14 +87,21 @@ h4 {
 .book, .join {
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px, 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .msg h2 {
     color: #0a434b;
+    font-family: Michroma, Verdana, sans-serif;
 }
 
 .msg p {
     color:#0a434b;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -96,6 +119,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -110,3 +134,38 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #EB7609;
+}
+
+main section img {
+    box-sizing: border-box;
+} 
+
+main img {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}

@@ -11,6 +11,7 @@ nav a {
     color: #0a434b; 
     text-decoration: none;
     padding: 35px;
+    border-radius: 5px;
 }
 
 #hero-msg h1 {
@@ -91,6 +92,7 @@ h4 {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    color: #0a434b;
 }
 
 .msg h2 {

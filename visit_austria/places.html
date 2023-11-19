@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austria - Visit the Heartland</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo-link" href="index.html">
+                <img class="logo" src="images/austria-logo.png" alt="austria heartland logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="people.html">The People</a>
+                <a href="places.html">The Places</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div id="places-banner">
+            <div id="plc-banner-img">
+                <img id="top-places" src="images/dolomiten.jpg" alt="Picture of the Dolomiten Mountain Range">
+                <caption>Dolomiten Mountains by the Italian border</caption>
+            </div>
+            <h1>Make sure you pack your camera</h1>
+            <p>Majestic mountains, tranquil lakes, rolling hills of orchards, or bustling cities with hundred-year-old 
+                buildings, filled with modern life - where would you like to start out on your Austria adventure?
+                With hundreds of museums, galleries, and exhibitions, there is so much to explore. The nine provinces 
+                of Austria each offer their own charm, unique accent and traditional garb. You may pass through in a day
+                or stay a life-time and still discovery something new each day.
+            </p>
+        </div>
+        <main></main>
+            <img src="images/lake-hallstatt.jpg" alt="Lake Hallstatt in the province Salzburg">
+            <caption>Lake Hallstatt by Salzburg</caption>
+            <h1>The Places</h1>
+            <p>Austria is a federation of nine provinces, and with appoximately 85,000 square kilometers and under 9 million
+                inhabitants there is plenty of space for everyone. 
+                In the west of the country you will find high mountain peaks and low valleys with few big cities and many 
+                small villages nestled in tranquil and remote spots, perfect for an escape from the hussle and bussle of 
+                modern life. The olympic city of Innsbruck in the heart of Tyrol is a wintersport paradise. There also is 
+                hardly a better spot for hiking and mountain-biking in the summer. 
+                The central region and south boast more lakes and is very popular for summer enthusiasts who prefer a spot 
+                on the water while baking in the sun. As Austria is surrounded by other countries you are never too far away
+                from the border. After a day at the lake, why not take a short roadtrip to Italy for some dinner with authentic
+                italian pizza and some gelato for dessert? The southern province Carinthia has also been a border region for 
+                several centuries and is littered with castles and fortresses that allow the visitor to dream of a time long gone,
+                when knights on horseback defended these regions.
+                Northern Austria is home to industry with many highly sought-after schools for austrian and international students.
+                In spite of industry there is an abundance of farmland and gives those interested in the backbone of a country's 
+                production the chance to take a deeper look and get hands on experience on how things are made.
+                Go to the east of Austria and you will fall in love with rolling hills, with fruit orchards and wine country. Many 
+                specialties are made here from freshly pressed apple cider and pumpkinseed oil, to delicious treats like the 'Sachertorte', 
+                a chocolate cake that will have you coming back for more, or the 'Krapfen', a cousin to the donut, filled with apricot jam
+                and dusted with powdered sugar. Right in the middle of this breathtaking garden lies the city of Vienna, a city full of life
+                and history. Vienna, as the former home of the royal family, offers numerous palaces and chateaux, many museums worth
+                visiting, and is a place where one can absorb true austrian modern culture and lifestyle.
+            </p>
+        </main>
+        <!-- The following HTML is copied from w3schools to make a slideshow. I adjusted the code
+        to show the images I chose etc., and I did read through it trying to understand the principles 
+        behind the code. -->
+
+        <!-- Container for the image gallery -->
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                    <img src="images/belvedere.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                    <img src="images/mountain-valley.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                    <img src="images/castle.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                    <img src="images/snowy_scene.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                    <img src="images/salzburg-castle.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                    <img src="images/meadow.jpg" style="width:100%">
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <!-- Image text -->
+            <div class="caption-container">
+            <p id="caption"></p>
+            </div>
+        
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/belvedere.jpg" style="width:100%" onclick="currentSlide(1)" alt="Imperial Palace">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/mountain-valley.jpg" style="width:100%" onclick="currentSlide(2)" alt="Mountain Valley">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/castle.jpg" style="width:100%" onclick="currentSlide(3)" alt="Fortress">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/snowy_scene.jpg" style="width:100%" onclick="currentSlide(4)" alt="Winter Wonderland">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/salzburg-castle.jpg" style="width:100%" onclick="currentSlide(5)" alt="Salzburg Castle">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/meadow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Alpine Meadow">
+                </div>
+            </div>
+        </div>
+        <!-- Here is where the copied (and adjusted) code ends. -->
+        
+        <footer>
+            <a id="logo-link" href="index.html">
+                <img class="logo" src="images/austria-logo.png" alt="austria heartland logo">
+            </a>
+            <p>Visit Austria &copy; 2023 - Michael Kaiser</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

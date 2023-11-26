@@ -1,0 +1,210 @@
+/* Import the fonts I selected for my personal website. */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gruppo&family=Nunito+Sans:opsz@6..12&family=Work+Sans&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    /* color: rgba(124, 140, 3, 1);  */
+    color: #f2c791;
+    text-decoration: none;
+    padding: 35px;
+    border-radius: 5px;
+    font-family: "Nunito Sans", "Work Sans", Tahoma;
+    font-size: larger;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    background-color: rgba(2, 64, 89, 0.6);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 2fr 1fr 2fr 1fr 30%;
+    width: 100%;
+    background-color: #024059;
+    height: 1050px;
+}
+.logo {
+    width: 80px;
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+}
+.logo:hover{
+    opacity: .6;
+    transform: scale(1.2)
+}
+.people_line, .places_line {
+    color: rgb(5, 34, 45);
+    font-family: "Architects Daughter", "Gruppo", 'Trebuchet MS';
+    font-size: 3em;
+    font-weight: bolder;
+    align-self: center;
+}
+#hero-image {
+    grid-column: 1/3;
+    grid-row: 1/7;
+    width: 90%;
+    max-height: 1000px;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.people_line {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    z-index: 1;
+    margin-left: 150px;
+}
+.people_msg {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    z-index: 1;
+    margin-left: 150px;
+    margin-top: -30px;
+    font-size: 1.5em;
+}
+.places_line {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    z-index: 1;
+    margin-left: 150px;
+}
+.places_msg {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    z-index: 1;
+    margin-left: 150px;
+    margin-top: -30px;
+    font-size: 1.5em;
+}
+.people_msg, .places_msg {
+    color: rgb(5, 34, 45);
+    font-family: "Nunito Sans", "Work Sans", Tahoma;
+}
+.hero-paragraph {
+    grid-column: 2/3;
+    grid-row: 2/7;
+    background-color: #f2c791;
+    color: rgb(5, 34, 45);
+    padding: 15px;
+    border-radius: 5px;
+    width: 400px;
+    height: 600px;
+    z-index: 1;
+    font-family: "Nunito Sans", "Work Sans", Tahoma;
+    font-weight: bold;
+    font-size: large;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+nav a:hover {
+    background-color: #024059;
+    color: #b6cc11;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 3fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    margin-top: 200px;
+    width: 100%;
+}
+.people_image {
+    background-color: #f2c791;
+    padding: 10px;
+    border: 25px solid #024059;
+    border-radius: 5px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.places_image {
+    background-color: #f2c791;
+    padding: 10px;
+    border: 25px solid #024059;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.about_people, .about_places {
+    font-family: "Nunito Sans", "Work Sans", Tahoma;
+    font-size: larger;
+    font-weight: bold;
+    color:rgb(5, 34, 45);
+    margin-left: 15px;
+}
+.people, .places {
+    font-family: "Architects Daughter", "Gruppo", 'Trebuchet MS';
+    font-size: 2em;
+    color:rgb(5, 34, 45);
+}
+.people:hover, .places:hover {
+    background-color: #024059;
+    color: #b6cc11;
+    padding: 20px;
+    border-radius: 5px;
+}
+.button-box-ppl, .button-box-plc {
+    padding: 20px;
+    border-radius: 5px;
+    justify-self: center;
+}
+.about_people {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 20px;
+}
+.about_places {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin-top: 20px;
+}
+.button-box-ppl {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.button-box-plc {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+footer {
+    background-color: rgba(2, 64, 89, 0.6);
+    /* color: rgba(124, 140, 3, 1); */
+    color: #f2c791;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p {
+    font-size: 1.2em;
+    font-family: "Nunito Sans", "Work Sans", Tahoma;
+    color:#f2c791;
+}
+.social:hover { 
+    opacity: .6;
+    transform: scale(1.2);
+}
+footer a {
+    text-decoration: none;
+    color: #f2c791;
+}
+.footer-link a:hover {
+    background-color: #024059;
+    color: #b6cc11;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
